@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+configs/paths.local.json
+experiments/
+.DS_Store

@@ -1,0 +1,37 @@
+name: serial_x4_seed0
+model_type: SRModel
+scale: 4
+num_gpu: 1
+manual_seed: 0
+datasets:
+  train:
+    dataroot_gt: ${DATA_ROOT}/DF2K_HR
+    dataroot_lq: ${DATA_ROOT}/DF2K_LR_X4
+    gt_size: 192
+    use_hflip: true
+    use_rot: true
+    batch_size_per_gpu: 64
+    num_worker_per_gpu: 4
+
+  val:
+    dataroot_gt: ${DATA_ROOT}/DIV2K_valid_HR/DIV2K_valid_HR
+    dataroot_lq: ${DATA_ROOT}/DIV2K_valid_LR_bicubic/X4
+    num_worker_per_gpu: 2
+
+network_g:
+  num_in_ch: 3
+  num_feat: 48
+  num_block: 4
+  num_out_ch: 3
+  upscale: 4
+
+train:
+  lr: !!float 5e-4
+  eta_min: !!float 1e-7
+  total_iter: 1000000
+  val_freq: 5000
+  save_freq: 5000
+  log_freq: 1000
+
+  compile: true
+  compile_mode: default

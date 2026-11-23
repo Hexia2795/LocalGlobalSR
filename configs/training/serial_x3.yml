@@ -1,0 +1,30 @@
+name: serial_x3
+model_type: SRModel
+scale: 3
+num_gpu: 1
+
+datasets:
+  train:
+    dataroot_gt: ${DATA_ROOT}/DF2K_HR
+    dataroot_lq: ${DATA_ROOT}/DF2K_LR_X3
+    gt_size: 144  # 【核心修改】：144/3 = 48，保证输入网络的 LR 尺寸与 x2、x4 严格一致！
+    use_hflip: true
+    use_rot: true
+    batch_size_per_gpu: 64
+    num_worker_per_gpu: 14
+  val:
+    dataroot_gt: ${DATA_ROOT}/Urban100/image_SRF_3/HR
+    dataroot_lq: ${DATA_ROOT}/Urban100/image_SRF_3/LR
+
+network_g:
+  num_in_ch: 3
+  num_feat: 48
+  num_block: 4
+  num_out_ch: 3
+  upscale: 3
+
+train:
+  lr: !!float 5e-4
+  total_iter: 1000000
+  val_freq: 5000
+  save_freq: 5000

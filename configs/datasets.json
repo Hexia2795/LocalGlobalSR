@@ -1,0 +1,98 @@
+{
+  "2": {
+    "Set5": {
+      "hr": "Set5/image_SRF_2/HR",
+      "lr": "Set5/image_SRF_2/LR",
+      "images": 5
+    },
+    "Set14": {
+      "hr": "Set14/image_SRF_2/HR",
+      "lr": "Set14/image_SRF_2/LR",
+      "images": 14
+    },
+    "BSD100": {
+      "hr": "BSD100/image_SRF_2/HR",
+      "lr": "BSD100/image_SRF_2/LR",
+      "images": 100
+    },
+    "Urban100": {
+      "hr": "Urban100/image_SRF_2/HR",
+      "lr": "Urban100/image_SRF_2/LR",
+      "images": 100
+    },
+    "Manga109": {
+      "hr": "Manga109/image_SRF_2/HR",
+      "lr": "Manga109/image_SRF_2/LR",
+      "images": 109
+    },
+    "DIV2K-valid": {
+      "hr": "DIV2K_valid_HR/DIV2K_valid_HR",
+      "lr": "DIV2K_valid_LR_bicubic/X2",
+      "images": 100
+    }
+  },
+  "3": {
+    "Set5": {
+      "hr": "Set5/image_SRF_3/HR",
+      "lr": "Set5/image_SRF_3/LR",
+      "images": 5
+    },
+    "Set14": {
+      "hr": "Set14/image_SRF_3/HR",
+      "lr": "Set14/image_SRF_3/LR",
+      "images": 14
+    },
+    "BSD100": {
+      "hr": "BSD100/image_SRF_3/HR",
+      "lr": "BSD100/image_SRF_3/LR",
+      "images": 100
+    },
+    "Urban100": {
+      "hr": "Urban100/image_SRF_3/HR",
+      "lr": "Urban100/image_SRF_3/LR",
+      "images": 100
+    },
+    "Manga109": {
+      "hr": "Manga109/image_SRF_3/HR",
+      "lr": "Manga109/image_SRF_3/LR",
+      "images": 109
+    },
+    "DIV2K-valid": {
+      "hr": "DIV2K_valid_HR/DIV2K_valid_HR",
+      "lr": "DIV2K_valid_LR_bicubic/X3",
+      "images": 100
+    }
+  },
+  "4": {
+    "Set5": {
+      "hr": "Set5/image_SRF_4/HR",
+      "lr": "Set5/image_SRF_4/LR",
+      "images": 5
+    },
+    "Set14": {
+      "hr": "Set14/image_SRF_4/HR",
+      "lr": "Set14/image_SRF_4/LR",
+      "images": 14
+    },
+    "BSD100": {
+      "hr": "BSD100/image_SRF_4/HR",
+      "lr": "BSD100/image_SRF_4/LR",
+      "images": 100
+    },
+    "Urban100": {
+      "hr": "Urban100/image_SRF_4/HR",
+      "lr": "Urban100/image_SRF_4/LR",
+      "images": 100
+    },
+    "Manga109": {
+      "hr": "Manga109/image_SRF_4/HR",
+      "lr": "Manga109/image_SRF_4/LR",
+      "images": 109
+    },
+    "DIV2K-valid": {
+      "hr": "DIV2K_valid_HR/DIV2K_valid_HR",
+      "lr": "DIV2K_valid_LR_bicubic/X4",
+      "images": 100
+    }
+  }
+}

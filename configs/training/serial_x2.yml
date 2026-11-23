@@ -1,0 +1,30 @@
+name: serial_x2
+model_type: SRModel
+scale: 2  # 【修改点 1】: 全局缩放因子改为 2
+num_gpu: 1
+
+datasets:
+  train:
+    dataroot_gt: ${DATA_ROOT}/DF2K_HR
+    dataroot_lq: ${DATA_ROOT}/DF2K_LR_X2  # 【修改点 2】: 指向 X2 的低分辨率训练集
+    gt_size: 96  # 对于 x2，如果 gt 是 192，那么 lq 会被 crop 成 96x96。由于显存够，这里保持不变即可
+    use_hflip: true
+    use_rot: true
+    batch_size_per_gpu: 64
+    num_worker_per_gpu: 14
+  val:
+    dataroot_gt: ${DATA_ROOT}/Urban100/image_SRF_2/HR  # 【修改点 3】: 指向 X2 的验证集 HR
+    dataroot_lq: ${DATA_ROOT}/Urban100/image_SRF_2/LR  # 【修改点 4】: 指向 X2 的验证集 LR
+
+network_g:
+  num_in_ch: 3
+  num_feat: 48
+  num_block: 4
+  num_out_ch: 3
+  upscale: 2  # 【修改点 5】: PixelShuffle 的放大倍率改为 2
+
+train:
+  lr: !!float 5e-4
+  total_iter: 1000000
+  val_freq: 5000
+  save_freq: 5000

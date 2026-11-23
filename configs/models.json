@@ -1,0 +1,83 @@
+{
+  "serial_x4_seed0": {
+    "composition": "serial",
+    "scale": 4,
+    "seed": 0,
+    "params": 361696,
+    "file": "serial_x4_seed0_885000.pth",
+    "sha256": "d54f45cb15cc1823956a11d2cf8d865db547119498294d88ea3bf4dcb6db7275",
+    "iteration": 885000
+  },
+  "serial_x4_seed1": {
+    "composition": "serial",
+    "scale": 4,
+    "seed": 1,
+    "params": 361696,
+    "file": "serial_x4_seed1_885000.pth",
+    "sha256": "703150e348b7207fd586b1ecf7faeb67447f3eec48f1b8ba0ae639e372c470d2",
+    "iteration": 885000
+  },
+  "p05_x4_seed0": {
+    "composition": "p05",
+    "scale": 4,
+    "seed": 0,
+    "params": 361696,
+    "file": "p05_x4_seed0_885000.pth",
+    "sha256": "57cb6c4733a59d9f5e6b74de7bd4c96983a87a98b1f752a37b5c44da5ac24f8f",
+    "iteration": 885000
+  },
+  "p05_x4_seed1": {
+    "composition": "p05",
+    "scale": 4,
+    "seed": 1,
+    "params": 361696,
+    "file": "p05_x4_seed1_885000.pth",
+    "sha256": "36a459a8318d997e4dc0940b9300f289d2900fe461645c85b114f7952f547992",
+    "iteration": 885000
+  },
+  "fair_rfdn_x4": {
+    "composition": "fair",
+    "scale": 4,
+    "seed": null,
+    "params": 402288,
+    "file": "fair_rfdn_x4_885000.pth",
+    "sha256": "dabaf321dd20b71e63f68030c3d7b1dfda5af9b0eafe52f37b829c814bc6389c",
+    "iteration": 885000
+  },
+  "serial_x2": {
+    "composition": "serial",
+    "scale": 2,
+    "seed": null,
+    "params": 346108,
+    "file": "serial_x2_885000.pth",
+    "sha256": "d42280f7106a80ac12946975eb455e63afef31cdf337226ebd1b3e639ff05697",
+    "iteration": 885000
+  },
+  "serial_x3": {
+    "composition": "serial",
+    "scale": 3,
+    "seed": null,
+    "params": 352603,
+    "file": "serial_x3_885000.pth",
+    "sha256": "7c7737bb7945c42c862df62a76cafdd2596e4ba1349310c64fce526f975244e9",
+    "iteration": 885000
+  },
+  "p1_x4_seed0": {
+    "composition": "p1",
+    "scale": 4,
+    "seed": 0,
+    "params": 361696,
+    "file": "p1_x4_seed0_885000.pth",
+    "sha256": "48d3bac477afc41a604dd50082352237466e69d63c1eb27b5d61fe80308ebe17",
+    "iteration": 885000
+  },
+  "p1_x4_seed1": {
+    "composition": "p1",
+    "scale": 4,
+    "seed": 1,
+    "params": 361696,
+    "file": "p1_x4_seed1_885000.pth",
+    "sha256": "8e3d37b406e4924d75b30b39b2adff3710d4e9935a96f38ba4967131e923047d",
+    "iteration": 885000
+  }
+}

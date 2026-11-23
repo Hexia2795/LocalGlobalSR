@@ -1,0 +1,13 @@
+﻿model,case_id,dataset,images,training_seed,inference,params,metric_protocol,psnr,ssim,legacy_psnr,legacy_ssim
+ParallelUnit_seed0_Standard,parallel_unit_seed0_standard,Set5,5,0,Standard,361696,BasicSR_floatY_x4_border4,32.36394425789002,0.8971678539980342,32.3428781244967,0.8960814662312252
+ParallelUnit_seed0_Standard,parallel_unit_seed0_standard,Set14,14,0,Standard,361696,BasicSR_floatY_x4_border4,28.739201179923526,0.7849172681053853,28.729161033619455,0.784179395338405
+ParallelUnit_seed0_Standard,parallel_unit_seed0_standard,BSD100,100,0,Standard,361696,BasicSR_floatY_x4_border4,27.673363953479146,0.7395308567627542,27.664005163057254,0.7386862531013915
+ParallelUnit_seed0_Standard,parallel_unit_seed0_standard,Urban100,100,0,Standard,361696,BasicSR_floatY_x4_border4,26.33604296374705,0.7926320788886487,26.328727445751788,0.7918349537985441
+ParallelUnit_seed0_Standard,parallel_unit_seed0_standard,Manga109,109,0,Standard,361696,BasicSR_floatY_x4_border4,30.950936038497915,0.9132384790697451,30.934815274742355,0.9122304698289743
+ParallelUnit_seed0_Standard,parallel_unit_seed0_standard,DIV2K-valid,100,0,Standard,361696,BasicSR_floatY_x4_border4,30.541110804808095,0.8397954108639741,30.51706609788368,0.8387091006543053
+ParallelUnit_seed0_TLC,parallel_unit_seed0_tlc,Set5,5,0,TLC,361696,BasicSR_floatY_x4_border4,32.368272414896104,0.8974588796649516,32.34739013946792,0.8964002611133693
+ParallelUnit_seed0_TLC,parallel_unit_seed0_tlc,Set14,14,0,TLC,361696,BasicSR_floatY_x4_border4,28.786215606709515,0.7859781886160736,28.776177162415003,0.7852347071180384
+ParallelUnit_seed0_TLC,parallel_unit_seed0_tlc,BSD100,100,0,TLC,361696,BasicSR_floatY_x4_border4,27.710124289543177,0.7408423066909954,27.700764789176716,0.7399940653175211
+ParallelUnit_seed0_TLC,parallel_unit_seed0_tlc,Urban100,100,0,TLC,361696,BasicSR_floatY_x4_border4,26.466344282035124,0.797315604950731,26.458808642704774,0.796517592949375
+ParallelUnit_seed0_TLC,parallel_unit_seed0_tlc,Manga109,109,0,TLC,361696,BasicSR_floatY_x4_border4,31.040467167512418,0.9143379665208985,31.02410635945879,0.913329439858033
+ParallelUnit_seed0_TLC,parallel_unit_seed0_tlc,DIV2K-valid,100,0,TLC,361696,BasicSR_floatY_x4_border4,30.67325347702116,0.8431450165120098,30.64841761643787,0.8420546984657207

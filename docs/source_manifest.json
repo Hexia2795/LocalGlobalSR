@@ -1,0 +1,98 @@
+[
+  {
+    "path": "srpaper/__init__.py",
+    "frozen_sha256": "4aff6f6074f3edad302b3d7898ed1edd074ffc059d2e9daa5f9ac4995b7075fc",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/data/__init__.py",
+    "frozen_sha256": "4aff6f6074f3edad302b3d7898ed1edd074ffc059d2e9daa5f9ac4995b7075fc",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/data/transforms.py",
+    "frozen_sha256": "864179b5e66180bef18212909ddc7f20a07dd3784c9881ffae1984ea7ae9294d",
+    "release_sha256": "0e25e7c0e9ee76dbda4fa8107e79d61acabfdc4b5f5237ae4be271a4194537ab",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/models/Blocks.py",
+    "frozen_sha256": "8f88f5d2e90fe0fb925643e055207ad42cd89a3145c631bd1e3c28bb0729c86d",
+    "release_sha256": "1ea432c7b7ad7be99df438fc8a3b9bece3cfec2b9a08f1ed50b19ee17bbe6338",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/models/RFDN.py",
+    "frozen_sha256": "8927ea726588e0f33caec919d4a8bc42ad85dc3d36a4b2bf153dff1a40678238",
+    "release_sha256": "4089d83b7beade357209ccfff69aa3447a659c7b11ad7339496d6bd64eb82e8f",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/models/RFDN_parallel_fixed.py",
+    "frozen_sha256": "1dbac50ec2248bf6a70660c310df6d35cfa7499a81f549e4c30c996027cbbe50",
+    "release_sha256": "1dbac50ec2248bf6a70660c310df6d35cfa7499a81f549e4c30c996027cbbe50",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/models/RFDN_parallel_unit.py",
+    "frozen_sha256": "83cb00dc591f38bf8eae390df86b76ae08a73ebd95f4d60b034ec513a073ba6e",
+    "release_sha256": "83cb00dc591f38bf8eae390df86b76ae08a73ebd95f4d60b034ec513a073ba6e",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/models/__init__.py",
+    "frozen_sha256": "4aff6f6074f3edad302b3d7898ed1edd074ffc059d2e9daa5f9ac4995b7075fc",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/models/block.py",
+    "frozen_sha256": "84b2563825a8472e1e8348e0f86c763727dda59fd6c4e78083ffecb8d2e6a8c3",
+    "release_sha256": "deedee3cdb2ccdc29623ca25ef9b5c63b1ed5aa1173284d62bffd9786a405821",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/models/block_parallel_fixed.py",
+    "frozen_sha256": "0c8b71beb60b653ee44bccb681821e66384ec6fefdeaa54e0f485e508890de15",
+    "release_sha256": "27f742cba0514f7821eea53a3bec6662913505de73dad8953d57e81096b963b4",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/models/block_parallel_unit.py",
+    "frozen_sha256": "644595b4c6b06c10c103dae4f20ab3d93e14da25753e45047b4b778f17419b89",
+    "release_sha256": "12d1396873aec3caf292f9b148ed6d07e8f900734c0b970c1e278496502c9cbb",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/models/dlgsanet_arch.py",
+    "frozen_sha256": "7c86f84cba62a0682e539cc6750a3e6ea87453d07117ed4699ce51a4ba285455",
+    "release_sha256": "9dcad56379595f5df9df510f8420a62d88f36ecc4b8fd6226ac7d1f4a417143c",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/models/rfdn_baseline_arch.py",
+    "frozen_sha256": "3cd7c50479a6558c5d46031b57fb34d53a7f478d2c7e5d25fea42e4034995080",
+    "release_sha256": "152126827cdc5ca330e8a4b426e632ad9092ec21d799212c3c744303033553ad",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/utils/__init__.py",
+    "frozen_sha256": "4aff6f6074f3edad302b3d7898ed1edd074ffc059d2e9daa5f9ac4995b7075fc",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/utils/image.py",
+    "frozen_sha256": "aeca9e6f22401f45ba450169e2f85156f677fcf53214f852257f3671dc6bf921",
+    "release_sha256": "4983dd63623c92670be185e4ee400fb2ab3549115380efc1d6320005f163ce79",
+    "computational_ast_unchanged": true
+  },
+  {
+    "path": "srpaper/utils/logger.py",
+    "frozen_sha256": "498cfcb9a86f0ec2883ce9e118a3a65f51b1391832edebacef7d97c91b4adc48",
+    "release_sha256": "55cc41891c1c7fe126c4d5ccd4ade3380a5ea8857bd5c6ef7e666f00e531bf64",
+    "computational_ast_unchanged": true
+  }
+]

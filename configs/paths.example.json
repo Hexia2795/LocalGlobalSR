@@ -1,0 +1,4 @@
+{
+  "data_root": "/path/to/benchmark_and_training_data",
+  "checkpoint_dir": "checkpoints"
+}

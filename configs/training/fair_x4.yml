@@ -1,0 +1,46 @@
+name: fair_x4
+scale: 4
+seed: 123
+
+datasets:
+  train:
+    hr: ${DATA_ROOT}/DF2K_HR
+    lr: ${DATA_ROOT}/DF2K_LR_X4
+  val:
+    hr: ${DATA_ROOT}/DIV2K_valid_HR/DIV2K_valid_HR
+    lr: ${DATA_ROOT}/DIV2K_valid_LR_bicubic/X4
+
+model:
+  in_nc: 3
+  nf: 48
+  num_modules: 4
+  out_nc: 3
+  # The released authors' RFDB code uses half of the channels as distilled channels.
+  distillation_rate: 0.5
+
+train:
+  gt_size: 192
+  batch_size: 64
+
+  # cache_images=true is suitable for the user's 120 GB RAM machine.
+  # Keep num_workers=0 while caching to avoid worker copies of the large cache.
+  cache_images: true
+  num_workers: 0
+
+  # Keep T_max at 1,000,000 to match the current improved-model run.
+  # Use --stop_after 100000 for the controlled 100k comparison.
+  total_iter: 1000000
+  lr: 0.0005
+  eta_min: 0.0000001
+  betas: [0.9, 0.999]
+  eps: 0.00000001
+
+  val_freq: 5000
+  checkpoint_freq: 100000
+  log_freq: 100
+
+  amp: true
+  compile: true
+
+paths:
+  output_dir: experiments/rfdn_baseline_x4_4b
